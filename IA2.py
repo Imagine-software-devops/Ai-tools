@@ -1,4 +1,4 @@
-usr/bin/env python
+#!/usr/bin/env python
 # importer des bibiliothèques 
 import openai
 from configparser import ConfigParser
