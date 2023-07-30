@@ -44,29 +44,29 @@ le code du fichier IA.py est compose de 3 parties :
   
   - Les fonctions sont les suivantes :
     
-    #Une fonction qui  lit la clé API à partir d'un fichier de configuration  " Ai_config.cfg"
+    Une fonction qui  lit la clé API à partir d'un fichier de configuration  " Ai_config.cfg"
     def get_api_key(): 
         # Lecture du fichier de configuration
         # Récupération de la clé API à partir de la section 'openai'
         # Renvoi de la clé API
         
     
-    # Cette fonction est un décorateur. Elle ne modifie pas le comportement de la fonction qu'elle décore.
+    Cette fonction est un décorateur. Elle ne modifie pas le comportement de la fonction qu'elle décore.
     def IA(func):
     
-    # La fonction chatGptAsk est décorée par la fonction IA. 
+    La fonction chatGptAsk est décorée par la fonction IA. 
     @IA
     def chatGptAsk(question, selection):
-        # Elle génère une question pour l'IA GPT-3.5-turbo 
-        # renvoie sa réponse.
+        Elle génère une question pour l'IA GPT-3.5-turbo 
+        renvoie sa réponse.
         
 3) Configuration de la clé API pour la bibliothèque openai, en appelant la fonction get_api_key()
      
         
 4) Affichage du menu et de la réponse via l'appel d'une fonction 
 
-    # L'utilisateur choisit une question.
-    # L'utilisateur entre le code à examiner.
-    # La question et la sélection de l'utilisateur sont passées à la fonction chatGptAsk, et la réponse de l'IA est affichée.
+    L'utilisateur choisit une question.
+    L'utilisateur entre le code à examiner.
+    La question et la sélection de l'utilisateur sont passées à la fonction chatGptAsk, et la réponse de l'IA est affichée.
 
 
