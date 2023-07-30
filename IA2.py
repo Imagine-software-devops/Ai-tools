@@ -3,6 +3,10 @@ usr/bin/env python
 import openai
 from configparser import ConfigParser
 
+# Fonction qui crée un fichier config automatiquement 
+
+
+
 def create_config(keyapi):
   """
   Creates a configuration file with the provided API key.

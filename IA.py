@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import openai
 from configparser import ConfigParser
 def get_api_key():
