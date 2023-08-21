@@ -112,5 +112,3 @@ def main():
         print(chatGptAsk(question, selection))
 
 
-if __name__ == "__main__":   
-    main()
