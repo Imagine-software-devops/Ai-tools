@@ -17,3 +17,5 @@ Installer la bibliothèque openai avec la commande suivante dans un shell: pip i
 
 Structure du module Le module est organisé de la manière suivante : IA.md # le présent fichier d'explication IA.py # le code en python Config/ # dossier config
 Ai_config.cfg # le fichier config qui contient la clé API OpenAi
+
+Hachem & Sacia
